@@ -3,7 +3,6 @@
 body {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     margin: 0;
 }
@@ -62,12 +61,19 @@ nav {
     padding-bottom: 72px;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .image{
     display: flex;
 }
 
 .image > img{
-    max-width:  600px;
+    max-width:  100%;
+    height: auto;
 }
 
 .top-button{
@@ -78,6 +84,19 @@ nav {
     color: #F9FAF8;
     font-weight: 700;
     font-size: 18px;
+    margin-top: auto;
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.footer p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
 
