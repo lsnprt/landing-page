@@ -100,3 +100,38 @@ nav {
     font-size: 18px;
 }
 
+.information{
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 72px;
+}
+
+.information-title{
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.information-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.img-group{
+    max-width: 240px;
+    color: #1F2937;
+}
+
+.img-group > img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    object-fit: none;
+    object-position: center;
+}
+
+
